@@ -10,7 +10,7 @@ import {
   Collapse,
   Box,
 } from "@mui/material";
-import personalities from "./data";
+import personalities from "./Data";
 
 function App() {
   const [index, setIndex] = useState(0);
