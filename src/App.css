@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Optional smooth transitions for MUI cards */
+.MuiCard-root {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-4px);
+}
