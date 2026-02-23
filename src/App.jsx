@@ -37,7 +37,7 @@ function App() {
   return (
     <Box
       sx={{
-        backgroundColor: "#1E1E2F", // Set the entire page background color
+        backgroundColor: "#1E1E2F",
         minHeight: "100vh",
         display: "flex",
         alignItems: "center",
@@ -61,8 +61,8 @@ function App() {
           sx={{
             fontWeight: "bold",
             mb: 3,
-            color: "white", // Match color to other texts
-            fontSize: "2rem", // Match font size to other texts
+            color: "white",
+            fontSize: "2rem",
           }}
         >
           THE GOATS OF MOBILE LEGENDS
@@ -83,13 +83,13 @@ function App() {
             alignItems: "center",
             justifyContent: "center",
             textAlign: "center",
-            border: "1px solid rgba(139, 92, 226, 0.5)", // Add border similar to the reference
+            border: "1px solid rgba(139, 92, 226, 0.5)", 
           }}
         >
           <Typography
             sx={{
               fontWeight: "bold",
-              fontSize: "1.5rem", // Adjusted font size for emphasis
+              fontSize: "1.5rem", 
               mb: 1,
             }}
           >
@@ -99,7 +99,7 @@ function App() {
             sx={{
               fontWeight: "bold",
               fontSize: "1rem",
-              color: "#999999ff", // Highlighted color for subject
+              color: "#999999ff", 
               mb: 1,
             }}
           >
@@ -122,7 +122,7 @@ function App() {
             overflow: "hidden",
             background: "linear-gradient(180deg, #2E2B72 0%, #3B378F 100%)",
             color: "white",
-            border: "1px solid rgba(139, 92, 226, 0.5)", // Add border similar to the reference
+            border: "1px solid rgba(139, 92, 226, 0.5)", 
           }}
         >
           <CardMedia
